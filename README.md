@@ -1,7 +1,7 @@
 # Context25: Evidence and Grounding Context Identification for Scientific Claims
 This repository hosts the training/dev datasets and evaluation scripts for the [2025 Workshop on Scholarly Document Processing](https://sdproc.org/2024/sharedtasks.html#context25) Shared Task: **Context25: Evidence and Grounding Context Identification for Scientific Claims**
 
-Submissions for the shared task will be evaluated on the `eval.ai` platform at this challenge URL: `{TODO}` (with a challenge period of `{TODO}`).
+Submissions for the shared task will be evaluated on the `eval.ai` platform (challenge URL release on May 7). The testing phase will run from May 7-May 21.
 
 ## Background and Problem
 
@@ -9,7 +9,7 @@ People read and use scientific claims both within the scientific process (e.g., 
 
 However, retrieving this contextual information when encountering and using claims in the moment (often far removed from the source materials and data) is difficult and time-consuming. Can we train AI models to help with this?
 
-To assist with development of such models, this dataset contains `{TODO}` examples of scientific claims actually in use in lab notes and discussions for synthesis and research planning, across domains of biology, computer science, and the social sciences. For all of these claims, the dataset includes “gold” annotations for figures/tables that ground the key results behind each claim (this is “Task 1” for the workshop: see below). For a subset of these claims, we have “gold” examples of textual summaries --- and associated example text snippets from the paper --- of the key methodological details that ground each claim (this is “Task 2” for the workshop: see below).
+To assist with development of such models, this dataset contains `459` examples of scientific claims actually in use in lab notes and discussions for synthesis and research planning, across domains of biology, computer science, and the social sciences. For all of these claims, the dataset includes “gold” annotations for figures/tables that ground the key results behind each claim (this is “Task 1” for the shared task: see below). For a subset of these claims, we have “gold” examples of textual summaries --- and associated example text snippets from the paper --- of the key methodological details that ground each claim (this is “Task 2” for the shared task: see below).
 
 ## Dataset and directory structure
 
@@ -23,28 +23,28 @@ The directory structure is as follows:
 ```
 task1-train-dev.json
 task2-train-dev.json
-full_texts-train.json
+full-texts-task2-train-dev.json
 silver-data/
 eval/
 ```
 
 The main training/dev datasets are in `task1-train-dev.json` and `task2-train-dev.json`.
 
-PDFs for Task 1 are available at this gated HuggingFace repository: `{TODO}`
+PDFs for Task 1 are available at this gated HuggingFace repository: [https://huggingface.co/datasets/aakanksha19/context25_pdf_images](https://huggingface.co/datasets/aakanksha19/context25_pdf_images). If you are unable to submit an access request, please reach out to `aakankshan@allenai.org`.
 
-The current set of full-text parses for each paper are in `fulltexts-train.json`. The json is structured as a dictionary, where each key is a citekey (e.g., `nomura2004human`) and with a string containing the whole full-text parse for that paper as its associated value.
+The current set of full-text parses for each paper present in the task 2 training/dev are in `full-texts-task2-train-dev.json`. The json is structured as a dictionary, where each key is a citekey (e.g., `nomura2004human`) and with a string containing the whole full-text parse for that paper as its associated value.
 
 Evaluation scripts for each task are in `eval/`
 
-As an additional possibly useful resource, `silver-data` contains full text parses for 17,007 papers from 1-2 hop in-bound and out-bound citations of the focal papers. 
+As an additional possibly useful resource, `silver-data` contains full text parses for 17,007 papers from 1-2 hop in-bound and out-bound citations of the focal papers. You can use these full-texts to generate additional synthetic data to train stronger models for task 2.
 
-Test set claims will be named `task1-test.json` and `task2-test.json`, respectively, and will have the same organizational structure as the training data. Full-texts will be in `full_texts-test.json`
+Test set claims will be named `task1-test.json` and `task2-test.json`, respectively, and will have the same organizational structure as the training data. Full-texts will be in `full-texts-test.json`
 
 ## Task 1: Evidence Identification
 
 ### Task description
 
-Given a scientific claim and a subset of `{TODO}` pages from the relevant research paper PDF that contains the claim, extract the figures and tables in those pages and then predict a ranked shortlist of key figures or tables from those pages that provide supporting evidence for the claim.
+Given a scientific claim and a subset of `3` pages (as images) from the relevant research paper PDF that supports the claim, predict a ranked shortlist of key figures or tables from those page images that provide supporting evidence for the claim.
 
 Here is an example claim with a Figure as its key supporting evidence.
 
@@ -52,11 +52,15 @@ Here is an example claim with a Figure as its key supporting evidence.
 {
 	"id": "akamatsulab-WJvOy9Exn",
 	"claim": "The density of free barbed ends increased as a function of growth stress",
-	"citekey": "li2022molecular",
 	"dataset": "akamatsulab",
 	"findings": [
 		"FIG 1D"
-	]
+	],
+	"necessary_pages": [
+      "34cf8b23-3095-4183-945d-886840dbc103.png",
+      "e3e265c5-d058-47e1-8486-7cd9082a905d.png",
+      "dc8e175a-8c3c-4428-833c-ae2722c01dcd.png"
+    ]
 }
 ```
 
@@ -71,17 +75,21 @@ And an example claim with a Figure and Table as its key supporting evidence.
 	"findings": [
 		"FIG 6",
 		"TAB 2"
-	]
+	],
+	"necessary_pages": [
+      "1131d5a1-3424-495a-9edd-07382b262e3b.png",
+      "d933fea8-bc38-4c89-8ce0-f7c213f0e156.png",
+      "35869bc2-f9e5-4fea-9b4d-f8a4a05bf0a5.png"
+    ]
 }
 ```
 
-Each claim corresponds to a paper via the `citekey` field. The PDFs for the papers are available in the following gated HuggingFace repository: `{TODO}`.
+Each claim corresponds to a set of 3 pages (specifically their images) via the `necessary_pages` field. The PDF page images for the papers are available in the following gated HuggingFace repository: [https://huggingface.co/datasets/aakanksha19/context25_pdf_images](https://huggingface.co/datasets/aakanksha19/context25_pdf_images).
 
-Scoring will be done using NDCG at 5 and 10. More details in `eval1.py` in `eval/`. 
+Scoring will be done using NDCG at 3 and 5. More details in `eval1.py` in `eval/`. 
 
-`{TODO: verify we are covering the possible variations}`
 > [!NOTE] Fig/table label format
-> Since the starting point for the models is a PDF, rather than a set of known Figure/Table labels, for a claim, models need to extract figures/tables from the PDFs and then rank them. These extracted figure/table labels must conform to a specific format to allow our evaluation scripts to appropriately score predictions: 
+> Since the starting point for the models is a set of PDF pages, rather than a set of known Figure/Table labels, for a claim, models need to produce figure/table labels from the pages and rank them. These generated figure/table labels must conform to a specific format to allow our evaluation scripts to appropriately score predictions: 
 > - **Figure** labels should be of the form `FIG {optionaldesignation}{fignum}{optionalsublabel}`, e.g., `FIG 1A`, or `FIG S3D` (for a supplemental figure), or `FIG 6`
 > - **Table** labels should be of the form `TAB {optionaldesignation}{tabnum}{obtionalsublabel}`, e.g., `TAB 1`, or `TAB 3A`
 
@@ -90,29 +98,29 @@ Scoring will be done using NDCG at 5 and 10. More details in `eval1.py` in `eval
 
 ### Training and dev data description
 
-There are currently `{TODO}` total scientific claims across the four datasets, in the following breakdown:
+There are currently `459` total scientific claims across the four datasets, in the following breakdown:
 
 | Dataset                      | N   |
 | ---------------------------- | --- |
-| akamatsulab                  | `{TODO}` |
-| BIOL403                      | `{TODO}`  |
-| dg-social-media-polarization | `{TODO}`  |
-| megacoglab                   | `{TODO}` |
+| akamatsulab                  | `202` |
+| BIOL403                      | `60`  |
+| dg-social-media-polarization | `76`  |
+| megacoglab                   | `121` |
 
-The full training dataset of `{TODO}` claims are in `task1-train-dev.json`.
+The full training dataset of `459` claims are in `task1-train-dev.json`.
 
 ## Task 2: Grounding Context Identification
 
 ### Task description
 
-Given a scientific claim and a relevant research paper, identify all grounding context from the paper discussing methodological details of the experiment that resulted in this claim. For the purposes of this task, grounding context consists of a) one or more textual summary descriptions of key methodological details, and b) one or more grounding snippets from the paper that relate to at least one textual summary description is restricted to quotes from the paper. Grounding context snippets are typically dispersed throughout the full-text, often far from where the supporting evidence is presented. 
+Given a scientific claim and a relevant research paper, identify all grounding context from the paper discussing methodological details of the experiment that resulted in this claim. For the purposes of this task, grounding context consists of a) one or more short summaries of key methodological details, and b) one or more grounding snippets from the paper that relate to at least one summary description (restricted to verbatim quotes from the paper). Grounding context snippets are typically dispersed throughout the full-text, often far from where the supporting evidence is presented. 
 
-For maximal coverage for this task, generate textual summaries (and search for grounding snippets) that cover the following key aspects of the empirical methods of the claim:
+For maximal coverage for this task, generate short summaries (and search for grounding snippets) that cover the following key aspects of the empirical methods of the claim:
 1. **What** observable measures/data were collected
 2. **How** (with what methods, analyses, etc.) from
 3. **Who**(m) (which participants, what dataset, what population, etc.)
 
-Descriptions should be provide as much local/temporal contextual detail as possible to enable appropriate reasoning about comparability and generalizability of empirical results. For instance, in a psychology study of creativity, the description of the measure (What) should not just be `novelty`, but the specific operationalization/measure (e.g., `Likert-style ratings from 3 independent experts in the domain of the problem`).
+Descriptions should be short but provide enough local/temporal contextual detail to enable appropriate reasoning about comparability and generalizability of empirical results. For instance, in a psychology study of creativity, the description of the measure (What) should not just be `novelty`, but the specific operationalization/measure (e.g., `Likert-style ratings from 3 independent experts in the domain of the problem`).
 
 _NOTE_: we will not be scoring the descriptions and snippets separately by context "category" (e.g. who/how/what): we provide them here to clarify the requirements of the task.
 
