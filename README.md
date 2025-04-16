@@ -1,7 +1,7 @@
 # Context25: Evidence and Grounding Context Identification for Scientific Claims
 This repository hosts the training/dev datasets and evaluation scripts for the [2025 Workshop on Scholarly Document Processing](https://sdproc.org/2024/sharedtasks.html#context25) Shared Task: **Context25: Evidence and Grounding Context Identification for Scientific Claims**
 
-Submissions for the shared task will be evaluated on the `eval.ai` platform (challenge URL release on May 7). The testing phase will run from May 7-May 21.
+Submissions for the shared task will be evaluated on the `eval.ai` platform (challenge URL release on May 14). The testing phase will run from May 14-May 27.
 
 ## Background and Problem
 
@@ -115,51 +115,48 @@ The full training dataset of `459` claims are in `task1-train-dev.json`.
 
 Given a scientific claim and a relevant research paper, identify all grounding context from the paper discussing methodological details of the experiment that resulted in this claim. For the purposes of this task, grounding context consists of a) one or more short summaries of key methodological details, and b) one or more grounding snippets from the paper that relate to at least one summary description (restricted to verbatim quotes from the paper). Grounding context snippets are typically dispersed throughout the full-text, often far from where the supporting evidence is presented. 
 
-For maximal coverage for this task, generate short summaries (and search for grounding snippets) that cover the following key aspects of the empirical methods of the claim:
+For maximal coverage for this task, generate short descriptions (and search for grounding snippets) that cover the following key aspects of the empirical methods of the claim:
 1. **What** observable measures/data were collected
 2. **How** (with what methods, analyses, etc.) from
 3. **Who**(m) (which participants, what dataset, what population, etc.)
 
 Descriptions should be short but provide enough local/temporal contextual detail to enable appropriate reasoning about comparability and generalizability of empirical results. For instance, in a psychology study of creativity, the description of the measure (What) should not just be `novelty`, but the specific operationalization/measure (e.g., `Likert-style ratings from 3 independent experts in the domain of the problem`).
 
-_NOTE_: we will not be scoring the descriptions and snippets separately by context "category" (e.g. who/how/what): we provide them here to clarify the requirements of the task.
+_NOTE_: we will not be scoring the descriptions and snippets separately by context "category" (e.g. who/how/what): we provide them with the data to clarify the requirements of the task.
 
 Here is an example claim with descriptions and grounding quotes for its key methodological context:
-
 ```
 {
     "id": "megacoglab-W3sdOb60i",
     "claim": "US patents filed by inventors who were new to the patent's field tended to be more novel",
     "citekey": "artsParadiseNoveltyLoss2018a",
-    "dataset": "megacoglab",
     "context": [
-		{
-			"description": "Logarithmic transformation of the number of first-time pairwise subclass combinations, as an index of novelty of patents",
-			"snippets": [
-				 "To assess patent novelty, we calculate new combinations (ln) as the logarithmic transformation of one plus the number of pairwise subclass combinations of a patent that appear for the first time in the US. patent database (Fleming et al. 2007, Jung and Jeongsik 2016). To do so, each pairwise combination of subclasses is compared with all pairwise combinations of all prior U.S. patents. (p. 5)"
-			]
-		},
-		{
-			"description": "absence of any overlapping class between all prior patents and the focal patent, as indicator of exploring new fields",
-			"snippets": [
-				 "For each inventor-patent observation, we retrieve the three-digit technology classes of all prior patents of the focal inventor and identify whether there is any overlap between the three-digit technology classes of the focal patent and the three-digit technology classes linked o all prior patents of the same inventor. We rely on all classes assigned to a patent rather than just the primary class. Exploring new fields is a binary indicator that equals one in the absence of any overlapping class between all prior patents and the focal patent. (p. 6)"
-			]
-		},
-		{
-			"description": "2,705,431 patent–inventor observations from US firms assigned between 1975–2002",
-			"snippets": [
-				"we select the full population of inventors with U.S. patents assigned to \ufb01rms for 1975\u20132002 (p. 3)",
-				"we begin with the full population of inventors and collect all patents assigned to \ufb01rms but, by design, must restrict the sample to inventors who have at least two patents assigned to the same \ufb01rm. The advantage of this panel setup is that we can use inventor\u2013firm fixed effect models to control for unobserved heterogeneity among inventors and firms, which arguably have a strong effect on the novelty and value of creative output. This approach basically uses repeated patents of the same inventor within the same firm to identify whether the inventor creates more or less novel\u2014and more or less valuable\u2014patents when any subsequent patent is categorized in a new \ufb01eld. The sample includes 2,705,431 patent\u2013inventor observations assigned to 396,336 unique inventors and 46,880 unique firms, accounting for 473,419 unique inventor\u2013firm pairs. (p. 5)",
-			]
-		},
-		{
-			"description": "inventor–firm fixed effect models",
-			"snippets": [
-				"we can use inventor\u2013\ufb01rm \ufb01xed effect models to control for unobserved heterogeneity among inventors and \ufb01rms, which arguably have a strong effect on the novelty and value of creative output (p. 5)",
-			]
-		},
+      "To assess patent novelty, we calculate new combinations (ln) as the logarithmic transformation of one plus the number of pairwise subclass combinations of a patent that appear for the first time in the US. patent database (Fleming et al. 2007, Jung and Jeongsik 2016). To do so, each pairwise combination of subclasses is compared with all pairwise combinations of all prior U.S. patents. (p. 5)",
+      "we begin with the full population of inventors and collect all patents assigned to \ufb01rms but, by design, must restrict the sample to inventors who have at least two patents assigned to the same \ufb01rm. The advantage of this panel setup is that we can use inventor\u2013firm fixed effect models to control for unobserved heterogeneity among inventors and firms, which arguably have a strong effect on the novelty and value of creative output. This approach basically uses repeated patents of the same inventor within the same firm to identify whether the inventor creates more or less novel\u2014and more or less valuable\u2014patents when any subsequent patent is categorized in a new \ufb01eld. The sample includes 2,705,431 patent\u2013inventor observations assigned to 396,336 unique inventors and 46,880 unique firms, accounting for 473,419 unique inventor\u2013firm pairs. (p. 5)",
+      "For each inventor-patent observation, we retrieve the three-digit technology classes of all prior patents of the focal inventor and identify whether there is any overlap between the three-digit technology classes of the focal patent and the three-digit technology classes linked o all prior patents of the same inventor. We rely on all classes assigned to a patent rather than just the primary class. Exploring new fields is a binary indicator that equals one in the absence of any overlapping class between all prior patents and the focal patent. (p. 6)",
+      "we can use inventor\u2013\ufb01rm \ufb01xed effect models to control for unobserved heterogeneity among inventors and \ufb01rms, which arguably have a strong effect on the novelty and value of creative output (p. 5)",
+      "we select the full population of inventors with U.S. patents assigned to \ufb01rms for 1975\u20132002 (p. 3)"
+    ],
+    "dataset": "megacoglab",
+    "entity_labels": [
+      {
+        "entity": "Logarithmic transformation of the number of first-time pairwise subclass combinations, as an index of novelty of patents",
+        "type": "what"
+      },
+      {
+        "entity": "absence of any overlapping class between all prior patents and the focal patent, as indicator of exploring new fields",
+        "type": "what"
+      },
+      {
+        "entity": "inventor\u2013firm fixed effect models",
+        "type": "how"
+      },
+      {
+        "entity": "2,705,431 patent\u2013inventor observations from US firms assigned between 1975\u20132002",
+        "type": "who"
+      }
     ]
-  },
+  }
 ```
 
 In this example, the descriptions and snippets fall into the following aspects of empirical methods:
@@ -180,22 +177,22 @@ absence of any overlapping class between all prior patents and the focal patent,
 inventor–firm fixed effect models
 > "we can use inventor\u2013\ufb01rm \ufb01xed effect models to control for unobserved heterogeneity among inventors and \ufb01rms, which arguably have a strong effect on the novelty and value of creative output (p. 5)"
 
-Scoring will be done using ROUGE and BERT score similarity to the gold standard descriptions and quotes. See `eval2.py` in `eval/` for more details.
+Scoring will be done using ROUGE and BERT score similarity to the gold standard descriptions and quotes. See `eval2.py` in `eval/` for more details. During the testing phase, we also plan to conduct human evaluation of descriptions and quotes extracted by the top-scoring systems, according to our automated evaluation.
 
 ### Example test data
 
-Task 2 is a "test-only" task. In liueu of training data, we are releasing a small (N=`{TODO}`) set of examples, which can be used to get an idea for the task, with the following breakdown across the `akamatsulab` and `megacoglab` datasets:
+Task 2 is a "test-only" task. In lieu of training data, we are releasing a small (N=`39`) set of examples, which can be used to get an idea for the task, with the following breakdown across the `akamatsulab` and `megacoglab` datasets:
 
 | Dataset                      | N   |
 | ---------------------------- | --- |
-| akamatsulab                  | `{TODO}` |
-| megacoglab                   | `{TODO}` |
+| akamatsulab                  | `26` |
+| megacoglab                   | `13` |
 
 ## Evaluation and Submission
 
 You can see how we will evaluate submissions --- both in terms of scoring, and prediction file format and structure --- for Task 1 and 2 by running the appropriate eval script for your predictions. 
 
-Submissions will be evaluated on the `eval.ai` platform at this challenge URL: `{TODO}`
+Submissions will be evaluated on the `eval.ai` platform, the challenge URL will be released during the testing phase.
 
 ### Task 1
 
@@ -215,9 +212,8 @@ megacoglab-W3sdOb60i,"FIG 1, TAB 1"
 
 To get scores for your predictions, inside the `eval/` subdirectory, run `task1_eval.py` as follows:
 
-`{TODO: update}`
 ```
-python task1_eval.py --pred_file <path/to/predictionfilename>.csv --gold_file ../task1-train-dev.json --parse_folder ../figures-tables
+python task1_eval.py --pred_file <path/to/predictionfilename>.csv --gold_file ../task1-train-dev.json
 ```
 
 You can optionally add `--debug True` if you want to dump scores for individual predicions for debugging/analysis.
@@ -226,11 +222,10 @@ You can optionally add `--debug True` if you want to dump scores for individual 
 
 Predictions for this task should be in a `.json` file (similar in structure to the training-dev file) where each entry has the following fields:
 1. `id`: maps to the string id of the claim
-2. `context`: maps to a list of dictionaries, each of which has the following fields:
-   1. `label`: maps to a text string summary of the methodological detail
-   2. `snippets`: maps to a list of grounding snippets
+2. `labels`: maps to a list of short summary descriptions covering various methodological details
+3. `context`: maps to a list of grounding snippets 
 
-Order is not important fro the list of dictionaries and list of grounding snippets.
+Order is not important for the lists of descriptions and grounding snippets.
 
 Before running the eval script for task 2, you will need to first install required dependencies of`bert-score` and `rouge-score`.
 
@@ -249,5 +244,5 @@ pip install rouge-score
 Then run the `task2_eval.py` script in the following format:
 
 ```
-TODO: update
+python task2_eval.py --pred_file <path/to/predictionfilename>.json --gold_file ../task2-train-dev.json
 ```
