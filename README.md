@@ -1,7 +1,18 @@
 # Context25: Evidence and Grounding Context Identification for Scientific Claims
 This repository hosts the training/dev datasets and evaluation scripts for the [2025 Workshop on Scholarly Document Processing](https://sdproc.org/2024/sharedtasks.html#context25) Shared Task: **Context25: Evidence and Grounding Context Identification for Scientific Claims**
 
-Submissions for the shared task will be evaluated on the `eval.ai` platform (challenge URL release on May 14). The testing phase will run from May 14-May 27.
+## Test Set Release
+We have released test sets for both tasks now! Test set claims are named `task1-testset-release.json` and `task2-testset-release.json`, respectively, and have the same organizational structure as the training data. Full-texts are in `full-texts-test.json`, and PDFs are available in the same HuggingFace repository: [https://huggingface.co/datasets/aakanksha19/context25_pdf_images](https://huggingface.co/datasets/aakanksha19/context25_pdf_images) (see pages_to_share_test_final folder).
+
+Task 1 Size: 160 claims
+Task 2 Size: 159 claims
+
+### Submission Instructions
+The testing phase will run until May 24, 5 pm PT. After that, you will send your prediction files for final scoring to aakankshan@allenai.org.
+
+Each team is allowed to submit up to five prediction files per task --- the top-scoring submission will be used for ranking. Your submissions must follow the same formats required by our evaluation scripts (see [Evaluation and Submission](#evaluation-and-submission)), and must be named as per the following convention: `[TEAMNAME]_task{1,2}.{csv,json}`.
+
+We will release scores and team rankings according to our automated evaluation metrics on May 25. Submissions from the top 3 performing teams will go through another round of manual evaluation conducted by experts, and these results will be released on June 6. Shared task reports are due on June 8, we will update submission instructions soon.
 
 ## Background and Problem
 
@@ -37,8 +48,6 @@ The current set of full-text parses for each paper present in the task 2 trainin
 Evaluation scripts for each task are in `eval/`
 
 As an additional possibly useful resource, `silver-data` contains full text parses for 17,007 papers from 1-2 hop in-bound and out-bound citations of the focal papers. You can use these full-texts to generate additional synthetic data to train stronger models for task 2.
-
-Test set claims will be named `task1-test.json` and `task2-test.json`, respectively, and will have the same organizational structure as the training data. Full-texts will be in `full-texts-test.json`
 
 ## Task 1: Evidence Identification
 
