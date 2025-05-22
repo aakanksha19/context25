@@ -1,656 +1,956 @@
 [
-    {
-        "id": "akamatsulab-3YkqDzf-k",
-        "claim": "\"Disruption of actin with Latrunculin A or Jasplakinolide permited tubule formation as shown by Alexa555-CTxB, whereas no membrane tubules were observed with pretreatment of 16uM Nocodozole prior to LatA or Jasplak treatment.\"",
-        "citekey": "day2015microtubule",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab--Oe1lYDk9",
-        "claim": "\"DNA-PAINT resolution enhancement by sequential imaging (RESI) of DNA origami resolved DNA bases 0.7 nm apart\"",
-        "citekey": "reinhardt2023angstromresolution",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-SL11GKMhj",
-        "claim": "\"Membrane Vacuole Like Dilations (VLDs) with 2um diameter and ~2um height were observed in pEYFP-mem-transfected MEFs upon return to iso-osmotic conditions after exposure to 50% hypo-osmotic medium for 3min.\"",
-        "citekey": "kosmalska2015physical",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-F08lbYl1E",
-        "claim": "\"DNA-PAINT resolution enhancement by sequential imaging (RESI) showed increased packing (decreased spacing between receptors) of C20 receptors in CHO cells in the presence of RTX antibody \"",
-        "citekey": "reinhardt2023angstromresolution",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-hUo7JOHVF",
-        "claim": "\"Inhibition of GBF1 with LG186 greatly reduced fluid uptake and the number of CLICs while CME-derived vesicles and uptake were unaffected in AGS cells.\"",
-        "citekey": "sathe2018small",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-dRrpuL9Ns",
-        "claim": "\"Clathrin coated pits increased in lifetime by 14% under 100 \u00b5M CK666 in isotonic conditions based on live cell fluorescence imaging of SK-MEL-2 cells\"",
-        "citekey": "kaplan2022load",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-8WVpbNX8F",
-        "claim": "\"Actin filaments were less resistant to fragmentation due to twisting in the presence of cofilin.\"",
-        "citekey": "bibeau2023twist",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-E5mC5JCYA",
-        "claim": "\"The single-molecule and expansion microscopy protocol achieved highly uniform expansion of fission yeast cells at both the macro and micro scales.\"",
-        "citekey": "vojnovic2024combining",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-ttWXeJjs6",
-        "claim": "\"WT NIH3T3 fibroblast cells (untreated with Dyngo4a) showed comparable total CTxB-containing  structures after 2min incubation with CTxB-HRP that aligned with CLIC characteristics to WT and Cav-/- MEFs as evaluated by electron microscopy (total = 47% of cytoplasm, where 38% cytoplasm was comprised of tubules, and 9% vesicles).\"",
-        "citekey": "howes2010clathrinindependent",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-H8YLpgxgm",
-        "claim": "\"By directly binding a capping protein, Twinfilin inhibited CARMIL-mediated uncapping of capped actin filament barbed ends\"",
-        "citekey": "johnston2018novel",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-QWPyIbSxE",
-        "claim": "\"Combined cryo-EM, subtomogram averaging using RELION4, and unbiased matches with AlphaFold2 identified new protein Tekt5 in mouse sperm flagellum.\"",
-        "citekey": "chen2023novo",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-LjXvWKMsS",
-        "claim": "\"GTP-yS-Cdc42 and Pip2-containing vesicles increased the rate of NWASP-mediated branched actin elongation based on pyrene-actin fluorescence\"",
-        "citekey": "rohatgi1999interaction",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-zspgTfk4Y",
-        "claim": "\"Endocytic actin filaments had branch angles of 68 \u00b1 9\u02da based on cryo-electron tomography of SK-MEL-2 cells \"",
-        "citekey": "serwas2022mechanistic",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-34Sse-JI-",
-        "claim": "\"Arc5p-mEOS3.2 did not internalize in wsp1\u2206 fission yeast cells based on live-cell FPALM microscopy\"",
-        "citekey": "arasada2018highspeed",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-hDBBP4KpR",
-        "claim": "\"K560 truncated kinesin 1-Halo with JF646 expressed in live U20S cells showed 16 nm processive directional stepping by MINFLUX microscopy\"",
-        "citekey": "deguchi2023direct",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-nzQ0RZigK",
-        "claim": "\"GRAF1 coimmunoprecipitated with Dynamin from rat brain cytosol as identified by mass spectrometry and confirmed with antibodies to both GRAF1 and Dynamin.\"",
-        "citekey": "doherty2011endocytic",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-mfOuQgaJI",
-        "claim": "\"When twisted, actin filaments formed a secondary loop (\\\"plectoneme\\\") that was independent of twisting direction under low tension conditions.\"",
-        "citekey": "bibeau2023twist",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-8Lx-KOlQv",
-        "claim": "\"In Epsin triple knockout mouse embryonic fibroblasts, Hip1R did not localize to punctate structures characteristic of endocytic sites based on immunofluorescence\"",
-        "citekey": "messa2014epsin",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-APVr-0tNG",
-        "claim": "\"Arc5p-mEOS3.2 did not internalize in myo1\u2206 fission yeast cells based on live-cell FPALM microscopy\"",
-        "citekey": "arasada2018highspeed",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-K_PZU2gX3",
-        "claim": "\"In 150 mOsm hypotonic media, CK-666 did not affect the height of clathrin coated pits based on STORM imaging\"",
-        "citekey": "kaplan2022load",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-x2wgeai5k",
-        "claim": "\"Membrane mechanics simulations showed a linear relationship between endocytic pit internalization and force, for a variety of values of membrane tension\"",
-        "citekey": "akamatsu2020principles",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-yirRYe_uR",
-        "claim": "\"3D MINFLUX imaging allowed for 3D tracking of kinesin-1-Halo added to fixed U20S cells \"",
-        "citekey": "deguchi2023direct",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-lRBhBNler",
-        "claim": "\"mMaple-3-Wsp1 internalized over the course of several seconds based on live-cell FPALM microscopy in fission yeast\"",
-        "citekey": "arasada2018highspeed",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-3MRyHuIf9",
-        "claim": "\"The 2 terminal subunits at the free barbed end of f-actin filament adopted a \\\"flat\\\" conformation similar to the conformation of subunits in the middle of the filament\"",
-        "citekey": "carman2023structures",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-rj_RtRmpv",
-        "claim": "\"The fluorescence intensity of ArpC3 peaked concomitantly with dynamin2 based on live cell imaging of gene edited hiPSCs\"",
-        "citekey": "jin2022branched",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-z4XGgZPP8",
-        "claim": "\"100 \u00b5M CK-666 increased clathrin coat height by 8% based on STORM imaging\"",
-        "citekey": "kaplan2022load",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-YyF8q_zk6",
-        "claim": "\"3D DNA-PAINT resolution enhancement by sequential imaging (RESI) resolved nuclear pore complexes 5 nm apart in U2OS cells\"",
-        "citekey": "reinhardt2023angstromresolution",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-jjW0_d3ak",
-        "claim": "\"Disruption of microtubule network with high dose (16uM) nocodozole eliminated CTxB+ tubules, whereas low dose (150nM) nocodozole had little effect\"",
-        "citekey": "day2015microtubule",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-ebn-UtwZK",
-        "claim": "\"Optical tweezers revealed limited force propagation when only the membrane was pulled\"",
-        "citekey": "debelly2023cell",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-xY-GewW3E",
-        "claim": "\"Truncated GRAF1 missing GAP and SH3 domains (GRAF1-BAR-PH) displayed long tubules that persisted for >10minutes when incubated with Dil dye\"",
-        "citekey": "lundmark2008gtpaseactivating",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-P87cNqwZr",
-        "claim": "\"Epsin triple knockout mouse embryonic fibroblasts exhibited increased actin accumulation at sites of clathrin-mediated endocytosis as assayed by expressed utrophin calponin homology domain and TIRF microscopy\"",
-        "citekey": "messa2014epsin",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-A1HdO-GrO",
-        "claim": "\"Membrane Vacuole Like Dilations (VLDs) were observed in MEFs seeded on PDMS upon return to iso-osmotic conditions after hypo-osmotically induced swelling, and showed no colocalization between pEYFP-Mem structures and actin.\"",
-        "citekey": "kosmalska2015physical",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-hGyVfnHYL",
-        "claim": "\"Epsin triple knockout mouse embryonic fibroblasts exhibited an increased number of shallow and U shape clathrin-coated vesicles than wild type based on electron microscopy\"",
-        "citekey": "messa2014epsin",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-VLnm3aII7",
-        "claim": "\"mCherry-Arp3 reached peak accumulation at SecGFP-GPI endocytic sites at 6 seconds prior to scission in hAGS cells as shown by TIRF microscopy\"",
-        "citekey": "sathe2018small",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-COBrjEXGF",
-        "claim": "\"Myc-tagged GRAF1 colocalized with GFP-GPI in Caveolin1-knockout mouse embryonic fibroblasts based on immunofluorescence\"",
-        "citekey": "lundmark2008gtpaseactivating",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-Cmy4D8bhz",
-        "claim": "\"Dynamin pulled down with GST-GRAF1-SH3 domain based on Coomassie staining in a pulldown assay of rat brain cytosol with GST-GRAF1-SH3-bound beads\"",
-        "citekey": "doherty2011endocytic",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-i2NXezq0Q",
-        "claim": "\"TagRFPt-PICK1 reached peak intensity accumulation at CG endocytic sites at 12 seconds prior to scission (-12sec), dropping until just prior to scission and then increasing, in hAGS cells as shown by colocalization with SecGFP-GPI spots using TIRF microscopy\"",
-        "citekey": "sathe2018small",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-scjz_DMJY",
-        "claim": "\"Deletion of ICAP-1 led to recovery of traction forces in beta integrin KOs.\"",
-        "citekey": "kyumurkov2023force",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-EowpPsowf",
-        "claim": "\"Membrane reservoirs with 500nm diameter and ~1um height were observed in pEYFP-mem-transfected MEFs upon release of 6% stretch for 3min.\"",
-        "citekey": "kosmalska2015physical",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-MlLsP5aAR",
-        "claim": "\"Hip1R expression increased by ~75% in epsin triple knockout mouse embryonic fibroblasts\"",
-        "citekey": "messa2014epsin",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-M3NOdLhAe",
-        "claim": "\"Alexa488-STxB and Alexa488-CTxB accumulated in tubular invaginations in ATP-depleted COS-7 cells, however, ATP-depletion inhibited uptake of Dextran.\"",
-        "citekey": "day2015microtubule",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-27gEPZJHs",
-        "claim": "\"\u00b5-track performed better that other tracking pipelines in datasets with high particle density with regards to precision and accuracy.\"",
-        "citekey": "roudot2023utrack3d",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-ihaqh3iX6",
-        "claim": "\"Under 150 mOsm hypotonic conditions, CK-666 increased clathrin-RFP lifetime by 60% in SK-MEL-2 cells\"",
-        "citekey": "kaplan2022load",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-edRoDBRsn",
-        "claim": "\"The use of an optimized mixture of CapZ, tropomodulin, tropomyosin, and actin produced shorter actin filaments and more ends per micrograph compared to actin alone\"",
-        "citekey": "carman2023structures",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-EIEiB15oW",
-        "claim": "\"Based on STORM imaging, actin marked by phalloidin was asymmetrically distributed around endocytic sites, with an average distance of 71 nm from the center of the clathrin coat\"",
-        "citekey": "jin2022branched",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-HRNgiqUaO",
-        "claim": "\"After treatment with 30uM Dyngo4a (a dynamin inhibitor) CLICs were identified using electron microscopy as the remaining CTxB-containing structures, contributing to 90% of the total CTxB-containing endocytic volume after 15sec of CTxB uptake, 86% after 1min, and 74% after 2min in Cav-/- MEFs as compared to cells untreated with Dyngo4a. \"",
-        "citekey": "howes2010clathrinindependent",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-BNMAVkp2E",
-        "claim": "\"Snx33-/- dHL60 cells display higher levels of actin than WT dHL60 cells upon fMLP chemoattractant addition as shown by phalloidin staining detetected by flow cytometry.\"",
-        "citekey": "sitarska2023sensing",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-6B_aybd1z",
-        "claim": "\"mEmerald-p21, an Arp2/3 complex subunit, colocalized with mCherry-IRSp53 at filopodia in fixed AGS cells as shown by TIRF microscopy.\"",
-        "citekey": "sathe2018small",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "akamatsulab-ca1lLfdLf",
-        "claim": "\"Using a worm-like chain model to fit the force dependence of actin filament bending, the persistence length of actin was determined to be 10.7 $$\\pm$$ 1 $$\\mu$$m.\"",
-        "citekey": "bibeau2023twist",
-        "dataset": "akamatsulab"
-    },
-    {
-        "id": "megacoglab-9z_zo-lGV",
-        "claim": "\"social innovation concept proposals that cited inspirations with greater maximum conceptual distance from their problem domain were less likely to be shortlisted as creative by a panel of experts\"",
-        "citekey": "chanBestDesignIdeas2015",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-xwrgZU20w",
-        "claim": "\"participants who received automatically labeled clusters of ideas as inspiration generated a higher quantity of ideas compared to receiving no external stimulation\"",
-        "citekey": "chanComparingDifferentSensemaking2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-HPVx3ziPZ",
-        "claim": "\"project ideas that cited a diverse set of inspiration sources were not more likely to be marked as creative by an expert panel\"",
-        "citekey": "chanImportanceIterationCreative2015",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-0DNrdxdn6",
-        "claim": "\"participants who saw examples in a list for an exploratory creativity task were more likely to do initial hill-climbing-like local exploration compared to participants who saw examples contextualized in the search space or in a dropdown\"",
-        "citekey": "chanFormulatingFixatingEffects2024",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-PrtoB_uNu",
-        "claim": "\"participants who received automatically labeled clusters of ideas as inspiration generated more diverse ideas compared to receiving no external stimulation\"",
-        "citekey": "chanComparingDifferentSensemaking2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-R8NAx8AqR",
-        "claim": "\"participants generated more alternative uses for everyday objects in a large room compared to participants in a small room\"",
-        "citekey": "chanSituativeCreativityLarger2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-nZ8moeasL",
-        "claim": "\"skip-gram model with vanilla BOW contexts achieved 0.3 correlation with human judgments of verb similarities on SimLex999, about 50 percent worse than correlations with human judgments of nouns (0.5 correlation) or adjectives (0.6 correlation)\"",
-        "citekey": "schwartzSymmetricPatternsCoordinations2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-xVGvCQlr4",
-        "claim": "\"social innovation concept proposals that cited inspirations with greater mean conceptual distance from their problem domain were less likely to be shortlisted as creative by a panel of experts\"",
-        "citekey": "chanBestDesignIdeas2015",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-fiT1U1BNY",
-        "claim": "\"the most novel alternative uses for everyday objects that were generated by undergraduate psychology students in a large room were marginally (but not statistically significantly) more novel than uses generated by participants in a small room\"",
-        "citekey": "chanSituativeCreativityLarger2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-qK4L2OmZ8",
-        "claim": "\"constantly recommending examples that were semantically distant from current ideas --- regardless of cognitive state --- led to lower maximum novelty of ideas compared to receiving no stimuli\"",
-        "citekey": "chanSemanticallyFarInspirations2017",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-SgCPC8G1k",
-        "claim": "\"forced colocation increased the likelihood that previously non-colocated French labs would collaborate by 3.5 times, primarily amongst lab pairs that had previously semantically distant topics and cited references\"",
-        "citekey": "cataliniMicrogeographyDirectionInventive2018",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-XZ-GAXsTK",
-        "claim": "\"constantly recommending examples that were semantically distant from current ideas -- regardless of cognitive state -- led to longer time intervals between ideas compared to receiving no stimuli\"",
-        "citekey": "chanSemanticallyFarInspirations2017",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-8NLbZ1oEO",
-        "claim": "\"Getting pairs of scientists in a breakout room to discuss their work increased the likelihood they would collaborate on a grant by about 75%\"",
-        "citekey": "boudreauFieldExperimentSearch2017",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-ydBOxMKiQ",
-        "claim": "\"after being forcibly colocated, French lab pairs grew increasingly similar in topics and literature cited\"",
-        "citekey": "cataliniMicrogeographyDirectionInventive2018",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-t3LvtWlNM",
-        "claim": "\"Crowd workers generated the most practical ideas when given analogical inspirations found from domain-independent problem descriptions with concrete constraints, compared to abstract constraints\"",
-        "citekey": "yuDistributedAnalogicalIdea2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-fOKN4sbBt",
-        "claim": "\"word2vec model with skip-gram architecture and 300 dimensions trained on a subset of the Google News corpus for three days achieved 50 percent accuracy on semantic four-term analogy word problems, better than a set of NNLM and RNNLM models\"",
-        "citekey": "mikolovEfficientEstimationWord2013",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-31i8gG7Kn",
-        "claim": "\"alternative uses for everyday objects that were generated by participants in a large room were judged as less practical on average than uses generated by participants in a small room\"",
-        "citekey": "chanSituativeCreativityLarger2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-ayJPkOD1i",
-        "claim": "\"the most novel alternative uses for everyday objects that were generated by participants in a large room were more novel than uses generated by participants in a small room\"",
-        "citekey": "chanSituativeCreativityLarger2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-SInNihzph",
-        "claim": "\"scientist pairs who were randomly assigned to talk to each other (and did so, face-to-face) at an interdisciplinary medical imaging symposium used about 6 new MeSH keywords from their partners in future publications when the pair had moderate overlap in intellectual interests, compared to pairs who did not interact at the symposium\"",
-        "citekey": "laneEngineeringSerendipityWhen",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-Oryy_ukuK",
-        "claim": "\"engineering students generated ideas with lower mean quality when they received analogical examples that were distant from their problem domain (vs. close to their domain)\"",
-        "citekey": "chanBenefitsPitfallsAnalogies2011",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-AX2AnkiDh",
-        "claim": "\"participants who saw examples contextualized in the search space for an exploratory creativity task were more likely to self-report using examples to model the problem compared to participants who saw examples in a list or in a dropdown\"",
-        "citekey": "chanFormulatingFixatingEffects2024",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-XwVHuT02v",
-        "claim": "\"word2vec model with CBOW architecture and 600 dimensions trained on a subset of the Google News corpus achieved 50 percent accuracy at completing semantic and syntactic four-term analogy word problems\"",
-        "citekey": "mikolovEfficientEstimationWord2013",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-lpcaTGd-U",
-        "claim": "\"word2vec model with skip-gram architecture and 640 dimensions trained on LDC corpora achieved 55 percent accuracy on semantic four-term analogy word problems, better than an NNLM model (23 percent accuracy), and RNNLM model (9 percent accuracy), trained on the same data\"",
-        "citekey": "mikolovEfficientEstimationWord2013",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-murOlQXGZ",
-        "claim": "\"positive effect of analogical paper recommendations (vs. keyword-based recommendations) on inducing creative adaptation ideas was statistically mediated by analogical recommendations' likelihood of being partial (vs. full) purpose matches\"",
-        "citekey": "kangAugmentingScientificCreativity2022",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-2Ey6CRR--",
-        "claim": "\"the occurrence of planning disagreements in an interdisciplinary science team was associated with subsequent increases in expressed uncertainty in their conversations\"",
-        "citekey": "paletzUncoveringUncertaintyDisagreement2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-tD_biL9dm",
-        "claim": "\"participants who saw diverse sets of examples had higher maximum task scores on an exploratory creativity task compared to participants who saw non-diverse sets of examples\"",
-        "citekey": "chanFormulatingFixatingEffects2024",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-Wvp7Jsu6k",
-        "claim": "\"the occurrence of science-related disagreements in an interdisciplinary science team was associated with subsequent increases in expressed uncertainty in their conversations early -- but not late -- in their mission\"",
-        "citekey": "paletzUncoveringUncertaintyDisagreement2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-rrA3LVjvk",
-        "claim": "\"crowd workers were more likely to generate creative product ideas when given descriptions of types of experts recommended by other workers who were given schematized abstract problem descriptions, compared to workers who were given descriptions of types of experts recommended by workers who were given the original concrete problem description, experts recommended from an irrelevant problem, or allowed to search for their own inspirations\"",
-        "citekey": "yuEncouragingOutsideBox2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-M1fSi8xQv",
-        "claim": "\"participants who received automatically labeled clusters of ideas as inspiration generated lower quality ideas compared to receiving no external stimulation\"",
-        "citekey": "chanComparingDifferentSensemaking2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-HwTluMGQh",
-        "claim": "\"participants who saw examples in a list for an exploratory creativity task were more likely to self-report selecting individual examples as starting points, rather than using them to model the problem or ignoring the examples\"",
-        "citekey": "chanFormulatingFixatingEffects2024",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-bf1_85feE",
-        "claim": "\"undergraduates spontaneously transferred a solution from an analogous story they had just read about 70-100 percent of the time with a hint that the story was useful for their problem\"",
-        "citekey": "gickAnalogicalProblemSolving1980",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-31S7Tx1Y9",
-        "claim": "\"undergraduate mechanical engineering students generated ideas with the same level of variety when given examples --- either surface dissimilar in the form of biological examples, or surface similar to their problem --- compared to students who received no examples\"",
-        "citekey": "wilsonEffectsBiologicalExamples2010",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-kPgwfWLY2",
-        "claim": "\"project ideas that cited other projects that cited a diverse set of inspiration sources were more likely to be marked as creative by an expert panel\"",
-        "citekey": "chanImportanceIterationCreative2015",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-ofmkVMxwh",
-        "claim": "\"undergraduates spontaneously transferred a solution from an analogous story they had just read about 40 percent of the time without a hint that the story was useful for their problem; about the same amount transferred the solution after a hint\"",
-        "citekey": "gickAnalogicalProblemSolving1980",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-tqn-PBdXQ",
-        "claim": "\"after forcible separation, previously colocated labs' cited references became less similar over time\"",
-        "citekey": "cataliniMicrogeographyDirectionInventive2018",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-sMBayPMZl",
-        "claim": "\"undergraduate mechanical engineering students generated marginally more novel ideas when given examples that were surface dissimilar from their problem (in the form of biological examples) compared to students who received examples that were surface similar to their problem\"",
-        "citekey": "wilsonEffectsBiologicalExamples2010",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-eLMnvM_CG",
-        "claim": "\"analogical paper recommendations were judged as more novel by engineering PhD students compared to keyword-based paper recommendations\"",
-        "citekey": "kangAugmentingScientificCreativity2022",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-v5Gb8mkfK",
-        "claim": "\"scientist pairs who were randomly assigned to talk to each other (and did so, face-to-face) at an interdisciplinary medical imaging symposium and had pre-symposium moderate similarity in clinical fields were more likely to co-author new publications in the 5 years following the symposium, compared to pairs who did not interact with each other at the symposium\"",
-        "citekey": "laneEngineeringSerendipityWhen",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-TP1cdR2tl",
-        "claim": "\"undergraduate mechanical engineering students generated more novel ideas when given examples --- either surface dissimilar in the form of biological examples, or surface similar to their problem --- compared to students who received no examples\"",
-        "citekey": "wilsonEffectsBiologicalExamples2010",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab--JkuVF9as",
-        "claim": "\"constantly recommending examples that were semantically distant from current ideas --- regardless of cognitive state --- led to ideas that were on average less similar to their immediately preceding idea compared to receiving no stimuli\"",
-        "citekey": "chanSemanticallyFarInspirations2017",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-AyfbosEHF",
-        "claim": "\"skip-gram model with symmetric pattern contexts achieved 0.46 correlation with human judgments of verb similarities on SimLex999, comparable to correlations with human judgments of nouns (0.42 correlation) or adjectives (0.65 correlation) and outperforming skip-gram models with other contexts, such as dependency parses and BOW\"",
-        "citekey": "schwartzSymmetricPatternsCoordinations2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-XyiUTIRAT",
-        "claim": "\"chemists and chemical engineers in self-reported high-scatter fields were about 2x more likely to self-report spending more than 5 hrs a week on keeping up with their field, compared to chemists and chemical engineers in low-scatter fields\"",
-        "citekey": "packerImportanceSDICurrent1979",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-rc7fs4Cwg",
-        "claim": "\"for two out of four design problems, concepts generated by engineering graduate students who received stimulus verbs that were antonyms of the core functions of the problem generated ideas that were judged to be more useful, and cohesive than students who receive stimulus verbs that were synonyms of the core functions of the problem\"",
-        "citekey": "chiuInvestigatingEffectsOppositely2012",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-SUT_hq92I",
-        "claim": "\"Crowd workers generated the most original ideas when given analogical inspirations found from domain-independent problem descriptions with concrete constraints, compared to abstract constraints\"",
-        "citekey": "yuDistributedAnalogicalIdea2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-MDvKeTZZN",
-        "claim": "\"word2vec model with CBOW architecture trained on LDC corpora and 640 dimensions achieved 24 percent accuracy on semantic four-term analogy word problems, about the same as NNLM model (23 percent accuracy), and better than an RNNLM model (9 percent accuracy), trained on the same data\"",
-        "citekey": "mikolovEfficientEstimationWord2013",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-Eas3Av6eX",
-        "claim": "\"crowd workers who were given a more abstract schematic description of a problem recommended more unique types of experts who might provide useful perspectives on the problem, compared to workers who were given the original concrete problem description\"",
-        "citekey": "yuEncouragingOutsideBox2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-VH37eM1Ba",
-        "claim": "\"engineering students generated ideas with the highest mean novelty when they received analogical examples that were both distant from their problem domain and unfamiliar to them (vs. all other types of examples or no examples)\"",
-        "citekey": "chanBenefitsPitfallsAnalogies2011",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-fD5LD5jZs",
-        "claim": "\"chemists and chemical engineers in self-reported high-scatter fields were less likely to self-report a high success-to-time-spent ratio in keeping up with their field, compared to chemists and chemical engineers in low-scatter fields\"",
-        "citekey": "packerImportanceSDICurrent1979",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-xdDrUY5pK",
-        "claim": "\"engineering students generated ideas with higher mean novelty when they received analogical examples that were distant from their problem domain (vs. close to their domain)\"",
-        "citekey": "chanBenefitsPitfallsAnalogies2011",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-TjSBH1e8i",
-        "claim": "\"forced separation did not negatively affect collaboration between previously colocated French labs\"",
-        "citekey": "cataliniMicrogeographyDirectionInventive2018",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-WB32ukGUI",
-        "claim": "\"engineering PhD students were more likely to generate creative adaptation vs. direct application ideas for their research when given analogical vs. keyword-based paper recommendations\"",
-        "citekey": "kangAugmentingScientificCreativity2022",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-VcP5d-4Lp",
-        "claim": "\"chemists and chemical engineers in self-reported low-scatter fields who subscribed to selective dissemination of information (SDI) services were more likely to self-report low efficiency in keeping up with their field compared to non-subscribers \"",
-        "citekey": "packerImportanceSDICurrent1979",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-D8dmJsaRz",
-        "claim": "\"word2vec model with skip-gram architecture trained on LDC corpora and 640 dimensions achieved 59 percent accuracy on syntactic four-term analogy word problems, better than RNNLM and NNLM models trained on the same data (which achieved 36 and 53 percent accuracy)\"",
-        "citekey": "mikolovEfficientEstimationWord2013",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-04yh2Agp6",
-        "claim": "\"engineering students generated ideas with higher variability in quality when they received analogical examples that were distant from their problem domain (vs. close to their domain or no examples)\"",
-        "citekey": "chanBenefitsPitfallsAnalogies2011",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-tZtKHmnD7",
-        "claim": "\"alternative uses for everyday objects that were generated by undergraduate psychology students in a large room were judged as less practical on average than uses generated by participants in a small room\"",
-        "citekey": "chanSituativeCreativityLarger2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-IMWGvZ2_G",
-        "claim": "\"crowd workers who were given a more abstract schematic description of a problem recommended experts who might provide useful perspectives on the problem that were more semantically distant from the problem, compared to workers who were given the original concrete problem description\"",
-        "citekey": "yuEncouragingOutsideBox2016",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-Hn7gmJnZU",
-        "claim": "\"participants who saw examples in a list had lower maximum task scores on an exploratory creativity task compared to participants who saw examples contextualized in the search space or in a dropdown\"",
-        "citekey": "chanFormulatingFixatingEffects2024",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-4rDvdG2-8",
-        "claim": "\"for one out of four design problems, concepts generated by engineering graduate students who received stimulus verbs that were antonyms of the core functions of the problem generated ideas that were judged to be more novel than students who receive stimulus verbs that were synonyms of the core functions of the problem\"",
-        "citekey": "chiuInvestigatingEffectsOppositely2012",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-xwEsF3MFC",
-        "claim": "\"engineering students' ideas were more likely to contain solution elements from analogical examples when examples were distant from their problem domain (vs. close to their domain)\"",
-        "citekey": "chanBenefitsPitfallsAnalogies2011",
-        "dataset": "megacoglab"
-    },
-    {
-        "id": "megacoglab-0Jkc9NJV2",
-        "claim": "\"word2vec model with CBOW architecture trained on LDC corpora and 640 dimensions achieved 64 percent accuracy on syntactic four-term analogy word problems, better than RNNLM and NNLM models trained on the same data (which achieved 36 and 53 percent accuracy)\"",
-        "citekey": "mikolovEfficientEstimationWord2013",
-        "dataset": "megacoglab"
-    }
+  {
+    "id": "akamatsulab-3YkqDzf-k",
+    "claim": "\"Disruption of actin with Latrunculin A or Jasplakinolide permited tubule formation as shown by Alexa555-CTxB, whereas no membrane tubules were observed with pretreatment of 16uM Nocodozole prior to LatA or Jasplak treatment.\"",
+    "citekey": "day2015microtubule",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab--Oe1lYDk9",
+    "claim": "\"DNA-PAINT resolution enhancement by sequential imaging (RESI) of DNA origami resolved DNA bases 0.7 nm apart\"",
+    "citekey": "reinhardt2023angstromresolution",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-SL11GKMhj",
+    "claim": "\"Membrane Vacuole Like Dilations (VLDs) with 2um diameter and ~2um height were observed in pEYFP-mem-transfected MEFs upon return to iso-osmotic conditions after exposure to 50% hypo-osmotic medium for 3min.\"",
+    "citekey": "kosmalska2015physical",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-F08lbYl1E",
+    "claim": "\"DNA-PAINT resolution enhancement by sequential imaging (RESI) showed increased packing (decreased spacing between receptors) of C20 receptors in CHO cells in the presence of RTX antibody \"",
+    "citekey": "reinhardt2023angstromresolution",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-hUo7JOHVF",
+    "claim": "\"Inhibition of GBF1 with LG186 greatly reduced fluid uptake and the number of CLICs while CME-derived vesicles and uptake were unaffected in AGS cells.\"",
+    "citekey": "sathe2018small",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-dRrpuL9Ns",
+    "claim": "\"Clathrin coated pits increased in lifetime by 14% under 100 \u00b5M CK666 in isotonic conditions based on live cell fluorescence imaging of SK-MEL-2 cells\"",
+    "citekey": "kaplan2022load",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-8WVpbNX8F",
+    "claim": "\"Actin filaments were less resistant to fragmentation due to twisting in the presence of cofilin.\"",
+    "citekey": "bibeau2023twist",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-E5mC5JCYA",
+    "claim": "\"The single-molecule and expansion microscopy protocol achieved highly uniform expansion of fission yeast cells at both the macro and micro scales.\"",
+    "citekey": "vojnovic2024combining",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-ttWXeJjs6",
+    "claim": "\"WT NIH3T3 fibroblast cells (untreated with Dyngo4a) showed comparable total CTxB-containing  structures after 2min incubation with CTxB-HRP that aligned with CLIC characteristics to WT and Cav-/- MEFs as evaluated by electron microscopy (total = 47% of cytoplasm, where 38% cytoplasm was comprised of tubules, and 9% vesicles).\"",
+    "citekey": "howes2010clathrinindependent",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-H8YLpgxgm",
+    "claim": "\"By directly binding a capping protein, Twinfilin inhibited CARMIL-mediated uncapping of capped actin filament barbed ends\"",
+    "citekey": "johnston2018novel",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-QWPyIbSxE",
+    "claim": "\"Combined cryo-EM, subtomogram averaging using RELION4, and unbiased matches with AlphaFold2 identified new protein Tekt5 in mouse sperm flagellum.\"",
+    "citekey": "chen2023novo",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-LjXvWKMsS",
+    "claim": "\"GTP-yS-Cdc42 and Pip2-containing vesicles increased the rate of NWASP-mediated branched actin elongation based on pyrene-actin fluorescence\"",
+    "citekey": "rohatgi1999interaction",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-zspgTfk4Y",
+    "claim": "\"Endocytic actin filaments had branch angles of 68 \u00b1 9\u02da based on cryo-electron tomography of SK-MEL-2 cells \"",
+    "citekey": "serwas2022mechanistic",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-34Sse-JI-",
+    "claim": "\"Arc5p-mEOS3.2 did not internalize in wsp1\u2206 fission yeast cells based on live-cell FPALM microscopy\"",
+    "citekey": "arasada2018highspeed",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-hDBBP4KpR",
+    "claim": "\"K560 truncated kinesin 1-Halo with JF646 expressed in live U20S cells showed 16 nm processive directional stepping by MINFLUX microscopy\"",
+    "citekey": "deguchi2023direct",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-nzQ0RZigK",
+    "claim": "\"GRAF1 coimmunoprecipitated with Dynamin from rat brain cytosol as identified by mass spectrometry and confirmed with antibodies to both GRAF1 and Dynamin.\"",
+    "citekey": "doherty2011endocytic",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-mfOuQgaJI",
+    "claim": "\"When twisted, actin filaments formed a secondary loop (\\\"plectoneme\\\") that was independent of twisting direction under low tension conditions.\"",
+    "citekey": "bibeau2023twist",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-8Lx-KOlQv",
+    "claim": "\"In Epsin triple knockout mouse embryonic fibroblasts, Hip1R did not localize to punctate structures characteristic of endocytic sites based on immunofluorescence\"",
+    "citekey": "messa2014epsin",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-APVr-0tNG",
+    "claim": "\"Arc5p-mEOS3.2 did not internalize in myo1\u2206 fission yeast cells based on live-cell FPALM microscopy\"",
+    "citekey": "arasada2018highspeed",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-K_PZU2gX3",
+    "claim": "\"In 150 mOsm hypotonic media, CK-666 did not affect the height of clathrin coated pits based on STORM imaging\"",
+    "citekey": "kaplan2022load",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-x2wgeai5k",
+    "claim": "\"Membrane mechanics simulations showed a linear relationship between endocytic pit internalization and force, for a variety of values of membrane tension\"",
+    "citekey": "akamatsu2020principles",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-yirRYe_uR",
+    "claim": "\"3D MINFLUX imaging allowed for 3D tracking of kinesin-1-Halo added to fixed U20S cells \"",
+    "citekey": "deguchi2023direct",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-lRBhBNler",
+    "claim": "\"mMaple-3-Wsp1 internalized over the course of several seconds based on live-cell FPALM microscopy in fission yeast\"",
+    "citekey": "arasada2018highspeed",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-3MRyHuIf9",
+    "claim": "\"The 2 terminal subunits at the free barbed end of f-actin filament adopted a \\\"flat\\\" conformation similar to the conformation of subunits in the middle of the filament\"",
+    "citekey": "carman2023structures",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-rj_RtRmpv",
+    "claim": "\"The fluorescence intensity of ArpC3 peaked concomitantly with dynamin2 based on live cell imaging of gene edited hiPSCs\"",
+    "citekey": "jin2022branched",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-z4XGgZPP8",
+    "claim": "\"100 \u00b5M CK-666 increased clathrin coat height by 8% based on STORM imaging\"",
+    "citekey": "kaplan2022load",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-YyF8q_zk6",
+    "claim": "\"3D DNA-PAINT resolution enhancement by sequential imaging (RESI) resolved nuclear pore complexes 5 nm apart in U2OS cells\"",
+    "citekey": "reinhardt2023angstromresolution",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-jjW0_d3ak",
+    "claim": "\"Disruption of microtubule network with high dose (16uM) nocodozole eliminated CTxB+ tubules, whereas low dose (150nM) nocodozole had little effect\"",
+    "citekey": "day2015microtubule",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-ebn-UtwZK",
+    "claim": "\"Optical tweezers revealed limited force propagation when only the membrane was pulled\"",
+    "citekey": "debelly2023cell",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-xY-GewW3E",
+    "claim": "\"Truncated GRAF1 missing GAP and SH3 domains (GRAF1-BAR-PH) displayed long tubules that persisted for >10minutes when incubated with Dil dye\"",
+    "citekey": "lundmark2008gtpaseactivating",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-P87cNqwZr",
+    "claim": "\"Epsin triple knockout mouse embryonic fibroblasts exhibited increased actin accumulation at sites of clathrin-mediated endocytosis as assayed by expressed utrophin calponin homology domain and TIRF microscopy\"",
+    "citekey": "messa2014epsin",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-A1HdO-GrO",
+    "claim": "\"Membrane Vacuole Like Dilations (VLDs) were observed in MEFs seeded on PDMS upon return to iso-osmotic conditions after hypo-osmotically induced swelling, and showed no colocalization between pEYFP-Mem structures and actin.\"",
+    "citekey": "kosmalska2015physical",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-hGyVfnHYL",
+    "claim": "\"Epsin triple knockout mouse embryonic fibroblasts exhibited an increased number of shallow and U shape clathrin-coated vesicles than wild type based on electron microscopy\"",
+    "citekey": "messa2014epsin",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-VLnm3aII7",
+    "claim": "\"mCherry-Arp3 reached peak accumulation at SecGFP-GPI endocytic sites at 6 seconds prior to scission in hAGS cells as shown by TIRF microscopy\"",
+    "citekey": "sathe2018small",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-COBrjEXGF",
+    "claim": "\"Myc-tagged GRAF1 colocalized with GFP-GPI in Caveolin1-knockout mouse embryonic fibroblasts based on immunofluorescence\"",
+    "citekey": "lundmark2008gtpaseactivating",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-Cmy4D8bhz",
+    "claim": "\"Dynamin pulled down with GST-GRAF1-SH3 domain based on Coomassie staining in a pulldown assay of rat brain cytosol with GST-GRAF1-SH3-bound beads\"",
+    "citekey": "doherty2011endocytic",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-i2NXezq0Q",
+    "claim": "\"TagRFPt-PICK1 reached peak intensity accumulation at CG endocytic sites at 12 seconds prior to scission (-12sec), dropping until just prior to scission and then increasing, in hAGS cells as shown by colocalization with SecGFP-GPI spots using TIRF microscopy\"",
+    "citekey": "sathe2018small",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-scjz_DMJY",
+    "claim": "\"Deletion of ICAP-1 led to recovery of traction forces in beta integrin KOs.\"",
+    "citekey": "kyumurkov2023force",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-EowpPsowf",
+    "claim": "\"Membrane reservoirs with 500nm diameter and ~1um height were observed in pEYFP-mem-transfected MEFs upon release of 6% stretch for 3min.\"",
+    "citekey": "kosmalska2015physical",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-MlLsP5aAR",
+    "claim": "\"Hip1R expression increased by ~75% in epsin triple knockout mouse embryonic fibroblasts\"",
+    "citekey": "messa2014epsin",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-M3NOdLhAe",
+    "claim": "\"Alexa488-STxB and Alexa488-CTxB accumulated in tubular invaginations in ATP-depleted COS-7 cells, however, ATP-depletion inhibited uptake of Dextran.\"",
+    "citekey": "day2015microtubule",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-27gEPZJHs",
+    "claim": "\"\u00b5-track performed better that other tracking pipelines in datasets with high particle density with regards to precision and accuracy.\"",
+    "citekey": "roudot2023utrack3d",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-ihaqh3iX6",
+    "claim": "\"Under 150 mOsm hypotonic conditions, CK-666 increased clathrin-RFP lifetime by 60% in SK-MEL-2 cells\"",
+    "citekey": "kaplan2022load",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-edRoDBRsn",
+    "claim": "\"The use of an optimized mixture of CapZ, tropomodulin, tropomyosin, and actin produced shorter actin filaments and more ends per micrograph compared to actin alone\"",
+    "citekey": "carman2023structures",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-EIEiB15oW",
+    "claim": "\"Based on STORM imaging, actin marked by phalloidin was asymmetrically distributed around endocytic sites, with an average distance of 71 nm from the center of the clathrin coat\"",
+    "citekey": "jin2022branched",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-HRNgiqUaO",
+    "claim": "\"After treatment with 30uM Dyngo4a (a dynamin inhibitor) CLICs were identified using electron microscopy as the remaining CTxB-containing structures, contributing to 90% of the total CTxB-containing endocytic volume after 15sec of CTxB uptake, 86% after 1min, and 74% after 2min in Cav-/- MEFs as compared to cells untreated with Dyngo4a. \"",
+    "citekey": "howes2010clathrinindependent",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-BNMAVkp2E",
+    "claim": "\"Snx33-/- dHL60 cells display higher levels of actin than WT dHL60 cells upon fMLP chemoattractant addition as shown by phalloidin staining detetected by flow cytometry.\"",
+    "citekey": "sitarska2023sensing",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-6B_aybd1z",
+    "claim": "\"mEmerald-p21, an Arp2/3 complex subunit, colocalized with mCherry-IRSp53 at filopodia in fixed AGS cells as shown by TIRF microscopy.\"",
+    "citekey": "sathe2018small",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-ca1lLfdLf",
+    "claim": "\"Using a worm-like chain model to fit the force dependence of actin filament bending, the persistence length of actin was determined to be 10.7 $$\\pm$$ 1 $$\\mu$$m.\"",
+    "citekey": "bibeau2023twist",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "megacoglab-9z_zo-lGV",
+    "claim": "\"social innovation concept proposals that cited inspirations with greater maximum conceptual distance from their problem domain were less likely to be shortlisted as creative by a panel of experts\"",
+    "citekey": "chanBestDesignIdeas2015",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-xwrgZU20w",
+    "claim": "\"participants who received automatically labeled clusters of ideas as inspiration generated a higher quantity of ideas compared to receiving no external stimulation\"",
+    "citekey": "chanComparingDifferentSensemaking2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-HPVx3ziPZ",
+    "claim": "\"project ideas that cited a diverse set of inspiration sources were not more likely to be marked as creative by an expert panel\"",
+    "citekey": "chanImportanceIterationCreative2015",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-0DNrdxdn6",
+    "claim": "\"participants who saw examples in a list for an exploratory creativity task were more likely to do initial hill-climbing-like local exploration compared to participants who saw examples contextualized in the search space or in a dropdown\"",
+    "citekey": "chanFormulatingFixatingEffects2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-PrtoB_uNu",
+    "claim": "\"participants who received automatically labeled clusters of ideas as inspiration generated more diverse ideas compared to receiving no external stimulation\"",
+    "citekey": "chanComparingDifferentSensemaking2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-R8NAx8AqR",
+    "claim": "\"participants generated more alternative uses for everyday objects in a large room compared to participants in a small room\"",
+    "citekey": "chanSituativeCreativityLarger2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-nZ8moeasL",
+    "claim": "\"skip-gram model with vanilla BOW contexts achieved 0.3 correlation with human judgments of verb similarities on SimLex999, about 50 percent worse than correlations with human judgments of nouns (0.5 correlation) or adjectives (0.6 correlation)\"",
+    "citekey": "schwartzSymmetricPatternsCoordinations2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-xVGvCQlr4",
+    "claim": "\"social innovation concept proposals that cited inspirations with greater mean conceptual distance from their problem domain were less likely to be shortlisted as creative by a panel of experts\"",
+    "citekey": "chanBestDesignIdeas2015",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-fiT1U1BNY",
+    "claim": "\"the most novel alternative uses for everyday objects that were generated by undergraduate psychology students in a large room were marginally (but not statistically significantly) more novel than uses generated by participants in a small room\"",
+    "citekey": "chanSituativeCreativityLarger2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-qK4L2OmZ8",
+    "claim": "\"constantly recommending examples that were semantically distant from current ideas --- regardless of cognitive state --- led to lower maximum novelty of ideas compared to receiving no stimuli\"",
+    "citekey": "chanSemanticallyFarInspirations2017",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-SgCPC8G1k",
+    "claim": "\"forced colocation increased the likelihood that previously non-colocated French labs would collaborate by 3.5 times, primarily amongst lab pairs that had previously semantically distant topics and cited references\"",
+    "citekey": "cataliniMicrogeographyDirectionInventive2018",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-XZ-GAXsTK",
+    "claim": "\"constantly recommending examples that were semantically distant from current ideas -- regardless of cognitive state -- led to longer time intervals between ideas compared to receiving no stimuli\"",
+    "citekey": "chanSemanticallyFarInspirations2017",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-8NLbZ1oEO",
+    "claim": "\"Getting pairs of scientists in a breakout room to discuss their work increased the likelihood they would collaborate on a grant by about 75%\"",
+    "citekey": "boudreauFieldExperimentSearch2017",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-ydBOxMKiQ",
+    "claim": "\"after being forcibly colocated, French lab pairs grew increasingly similar in topics and literature cited\"",
+    "citekey": "cataliniMicrogeographyDirectionInventive2018",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-t3LvtWlNM",
+    "claim": "\"Crowd workers generated the most practical ideas when given analogical inspirations found from domain-independent problem descriptions with concrete constraints, compared to abstract constraints\"",
+    "citekey": "yuDistributedAnalogicalIdea2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-fOKN4sbBt",
+    "claim": "\"word2vec model with skip-gram architecture and 300 dimensions trained on a subset of the Google News corpus for three days achieved 50 percent accuracy on semantic four-term analogy word problems, better than a set of NNLM and RNNLM models\"",
+    "citekey": "mikolovEfficientEstimationWord2013",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-31i8gG7Kn",
+    "claim": "\"alternative uses for everyday objects that were generated by participants in a large room were judged as less practical on average than uses generated by participants in a small room\"",
+    "citekey": "chanSituativeCreativityLarger2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-ayJPkOD1i",
+    "claim": "\"the most novel alternative uses for everyday objects that were generated by participants in a large room were more novel than uses generated by participants in a small room\"",
+    "citekey": "chanSituativeCreativityLarger2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-SInNihzph",
+    "claim": "\"scientist pairs who were randomly assigned to talk to each other (and did so, face-to-face) at an interdisciplinary medical imaging symposium used about 6 new MeSH keywords from their partners in future publications when the pair had moderate overlap in intellectual interests, compared to pairs who did not interact at the symposium\"",
+    "citekey": "laneEngineeringSerendipityWhen",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-Oryy_ukuK",
+    "claim": "\"engineering students generated ideas with lower mean quality when they received analogical examples that were distant from their problem domain (vs. close to their domain)\"",
+    "citekey": "chanBenefitsPitfallsAnalogies2011",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-AX2AnkiDh",
+    "claim": "\"participants who saw examples contextualized in the search space for an exploratory creativity task were more likely to self-report using examples to model the problem compared to participants who saw examples in a list or in a dropdown\"",
+    "citekey": "chanFormulatingFixatingEffects2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-XwVHuT02v",
+    "claim": "\"word2vec model with CBOW architecture and 600 dimensions trained on a subset of the Google News corpus achieved 50 percent accuracy at completing semantic and syntactic four-term analogy word problems\"",
+    "citekey": "mikolovEfficientEstimationWord2013",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-lpcaTGd-U",
+    "claim": "\"word2vec model with skip-gram architecture and 640 dimensions trained on LDC corpora achieved 55 percent accuracy on semantic four-term analogy word problems, better than an NNLM model (23 percent accuracy), and RNNLM model (9 percent accuracy), trained on the same data\"",
+    "citekey": "mikolovEfficientEstimationWord2013",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-murOlQXGZ",
+    "claim": "\"positive effect of analogical paper recommendations (vs. keyword-based recommendations) on inducing creative adaptation ideas was statistically mediated by analogical recommendations' likelihood of being partial (vs. full) purpose matches\"",
+    "citekey": "kangAugmentingScientificCreativity2022",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-2Ey6CRR--",
+    "claim": "\"the occurrence of planning disagreements in an interdisciplinary science team was associated with subsequent increases in expressed uncertainty in their conversations\"",
+    "citekey": "paletzUncoveringUncertaintyDisagreement2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-tD_biL9dm",
+    "claim": "\"participants who saw diverse sets of examples had higher maximum task scores on an exploratory creativity task compared to participants who saw non-diverse sets of examples\"",
+    "citekey": "chanFormulatingFixatingEffects2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-Wvp7Jsu6k",
+    "claim": "\"the occurrence of science-related disagreements in an interdisciplinary science team was associated with subsequent increases in expressed uncertainty in their conversations early -- but not late -- in their mission\"",
+    "citekey": "paletzUncoveringUncertaintyDisagreement2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-rrA3LVjvk",
+    "claim": "\"crowd workers were more likely to generate creative product ideas when given descriptions of types of experts recommended by other workers who were given schematized abstract problem descriptions, compared to workers who were given descriptions of types of experts recommended by workers who were given the original concrete problem description, experts recommended from an irrelevant problem, or allowed to search for their own inspirations\"",
+    "citekey": "yuEncouragingOutsideBox2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-M1fSi8xQv",
+    "claim": "\"participants who received automatically labeled clusters of ideas as inspiration generated lower quality ideas compared to receiving no external stimulation\"",
+    "citekey": "chanComparingDifferentSensemaking2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-HwTluMGQh",
+    "claim": "\"participants who saw examples in a list for an exploratory creativity task were more likely to self-report selecting individual examples as starting points, rather than using them to model the problem or ignoring the examples\"",
+    "citekey": "chanFormulatingFixatingEffects2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-bf1_85feE",
+    "claim": "\"undergraduates spontaneously transferred a solution from an analogous story they had just read about 70-100 percent of the time with a hint that the story was useful for their problem\"",
+    "citekey": "gickAnalogicalProblemSolving1980",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-31S7Tx1Y9",
+    "claim": "\"undergraduate mechanical engineering students generated ideas with the same level of variety when given examples --- either surface dissimilar in the form of biological examples, or surface similar to their problem --- compared to students who received no examples\"",
+    "citekey": "wilsonEffectsBiologicalExamples2010",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-kPgwfWLY2",
+    "claim": "\"project ideas that cited other projects that cited a diverse set of inspiration sources were more likely to be marked as creative by an expert panel\"",
+    "citekey": "chanImportanceIterationCreative2015",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-ofmkVMxwh",
+    "claim": "\"undergraduates spontaneously transferred a solution from an analogous story they had just read about 40 percent of the time without a hint that the story was useful for their problem; about the same amount transferred the solution after a hint\"",
+    "citekey": "gickAnalogicalProblemSolving1980",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-tqn-PBdXQ",
+    "claim": "\"after forcible separation, previously colocated labs' cited references became less similar over time\"",
+    "citekey": "cataliniMicrogeographyDirectionInventive2018",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-sMBayPMZl",
+    "claim": "\"undergraduate mechanical engineering students generated marginally more novel ideas when given examples that were surface dissimilar from their problem (in the form of biological examples) compared to students who received examples that were surface similar to their problem\"",
+    "citekey": "wilsonEffectsBiologicalExamples2010",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-eLMnvM_CG",
+    "claim": "\"analogical paper recommendations were judged as more novel by engineering PhD students compared to keyword-based paper recommendations\"",
+    "citekey": "kangAugmentingScientificCreativity2022",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-v5Gb8mkfK",
+    "claim": "\"scientist pairs who were randomly assigned to talk to each other (and did so, face-to-face) at an interdisciplinary medical imaging symposium and had pre-symposium moderate similarity in clinical fields were more likely to co-author new publications in the 5 years following the symposium, compared to pairs who did not interact with each other at the symposium\"",
+    "citekey": "laneEngineeringSerendipityWhen",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-TP1cdR2tl",
+    "claim": "\"undergraduate mechanical engineering students generated more novel ideas when given examples --- either surface dissimilar in the form of biological examples, or surface similar to their problem --- compared to students who received no examples\"",
+    "citekey": "wilsonEffectsBiologicalExamples2010",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab--JkuVF9as",
+    "claim": "\"constantly recommending examples that were semantically distant from current ideas --- regardless of cognitive state --- led to ideas that were on average less similar to their immediately preceding idea compared to receiving no stimuli\"",
+    "citekey": "chanSemanticallyFarInspirations2017",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-AyfbosEHF",
+    "claim": "\"skip-gram model with symmetric pattern contexts achieved 0.46 correlation with human judgments of verb similarities on SimLex999, comparable to correlations with human judgments of nouns (0.42 correlation) or adjectives (0.65 correlation) and outperforming skip-gram models with other contexts, such as dependency parses and BOW\"",
+    "citekey": "schwartzSymmetricPatternsCoordinations2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-XyiUTIRAT",
+    "claim": "\"chemists and chemical engineers in self-reported high-scatter fields were about 2x more likely to self-report spending more than 5 hrs a week on keeping up with their field, compared to chemists and chemical engineers in low-scatter fields\"",
+    "citekey": "packerImportanceSDICurrent1979",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-rc7fs4Cwg",
+    "claim": "\"for two out of four design problems, concepts generated by engineering graduate students who received stimulus verbs that were antonyms of the core functions of the problem generated ideas that were judged to be more useful, and cohesive than students who receive stimulus verbs that were synonyms of the core functions of the problem\"",
+    "citekey": "chiuInvestigatingEffectsOppositely2012",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-SUT_hq92I",
+    "claim": "\"Crowd workers generated the most original ideas when given analogical inspirations found from domain-independent problem descriptions with concrete constraints, compared to abstract constraints\"",
+    "citekey": "yuDistributedAnalogicalIdea2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-MDvKeTZZN",
+    "claim": "\"word2vec model with CBOW architecture trained on LDC corpora and 640 dimensions achieved 24 percent accuracy on semantic four-term analogy word problems, about the same as NNLM model (23 percent accuracy), and better than an RNNLM model (9 percent accuracy), trained on the same data\"",
+    "citekey": "mikolovEfficientEstimationWord2013",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-Eas3Av6eX",
+    "claim": "\"crowd workers who were given a more abstract schematic description of a problem recommended more unique types of experts who might provide useful perspectives on the problem, compared to workers who were given the original concrete problem description\"",
+    "citekey": "yuEncouragingOutsideBox2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-VH37eM1Ba",
+    "claim": "\"engineering students generated ideas with the highest mean novelty when they received analogical examples that were both distant from their problem domain and unfamiliar to them (vs. all other types of examples or no examples)\"",
+    "citekey": "chanBenefitsPitfallsAnalogies2011",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-fD5LD5jZs",
+    "claim": "\"chemists and chemical engineers in self-reported high-scatter fields were less likely to self-report a high success-to-time-spent ratio in keeping up with their field, compared to chemists and chemical engineers in low-scatter fields\"",
+    "citekey": "packerImportanceSDICurrent1979",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-xdDrUY5pK",
+    "claim": "\"engineering students generated ideas with higher mean novelty when they received analogical examples that were distant from their problem domain (vs. close to their domain)\"",
+    "citekey": "chanBenefitsPitfallsAnalogies2011",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-TjSBH1e8i",
+    "claim": "\"forced separation did not negatively affect collaboration between previously colocated French labs\"",
+    "citekey": "cataliniMicrogeographyDirectionInventive2018",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-WB32ukGUI",
+    "claim": "\"engineering PhD students were more likely to generate creative adaptation vs. direct application ideas for their research when given analogical vs. keyword-based paper recommendations\"",
+    "citekey": "kangAugmentingScientificCreativity2022",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-VcP5d-4Lp",
+    "claim": "\"chemists and chemical engineers in self-reported low-scatter fields who subscribed to selective dissemination of information (SDI) services were more likely to self-report low efficiency in keeping up with their field compared to non-subscribers \"",
+    "citekey": "packerImportanceSDICurrent1979",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-D8dmJsaRz",
+    "claim": "\"word2vec model with skip-gram architecture trained on LDC corpora and 640 dimensions achieved 59 percent accuracy on syntactic four-term analogy word problems, better than RNNLM and NNLM models trained on the same data (which achieved 36 and 53 percent accuracy)\"",
+    "citekey": "mikolovEfficientEstimationWord2013",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-04yh2Agp6",
+    "claim": "\"engineering students generated ideas with higher variability in quality when they received analogical examples that were distant from their problem domain (vs. close to their domain or no examples)\"",
+    "citekey": "chanBenefitsPitfallsAnalogies2011",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-tZtKHmnD7",
+    "claim": "\"alternative uses for everyday objects that were generated by undergraduate psychology students in a large room were judged as less practical on average than uses generated by participants in a small room\"",
+    "citekey": "chanSituativeCreativityLarger2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-IMWGvZ2_G",
+    "claim": "\"crowd workers who were given a more abstract schematic description of a problem recommended experts who might provide useful perspectives on the problem that were more semantically distant from the problem, compared to workers who were given the original concrete problem description\"",
+    "citekey": "yuEncouragingOutsideBox2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-Hn7gmJnZU",
+    "claim": "\"participants who saw examples in a list had lower maximum task scores on an exploratory creativity task compared to participants who saw examples contextualized in the search space or in a dropdown\"",
+    "citekey": "chanFormulatingFixatingEffects2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-4rDvdG2-8",
+    "claim": "\"for one out of four design problems, concepts generated by engineering graduate students who received stimulus verbs that were antonyms of the core functions of the problem generated ideas that were judged to be more novel than students who receive stimulus verbs that were synonyms of the core functions of the problem\"",
+    "citekey": "chiuInvestigatingEffectsOppositely2012",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-xwEsF3MFC",
+    "claim": "\"engineering students' ideas were more likely to contain solution elements from analogical examples when examples were distant from their problem domain (vs. close to their domain)\"",
+    "citekey": "chanBenefitsPitfallsAnalogies2011",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-0Jkc9NJV2",
+    "claim": "\"word2vec model with CBOW architecture trained on LDC corpora and 640 dimensions achieved 64 percent accuracy on syntactic four-term analogy word problems, better than RNNLM and NNLM models trained on the same data (which achieved 36 and 53 percent accuracy)\"",
+    "citekey": "mikolovEfficientEstimationWord2013",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "akamatsulab-aMqcDg3AL",
+    "claim": "\"In the absence of a VCA domain, Arp2/3 complex + actin monomers did not lead to measurable actin polymerization based on pyrene polymerization assays\"",
+    "citekey": "rocca2008inhibition",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-zitfsAX4w",
+    "claim": "\"Active Cdc42-GTP -- and not CDC42-GDP -- relieved IRSp53 capping activity in an actin polymerization kinetics assay induced by spectrin-actin seeds.\"",
+    "citekey": "disanza2013cdc42",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-ZXgoWBw15",
+    "claim": "\"Lumenogenesis was most prevalent for hiPSCs seeded in intermediate stiffness hydrogels (~1kPA) compared to low or high stiffness hydrogels. \"",
+    "citekey": "seitz2024soft",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-itdUdm86Z",
+    "claim": "\"Dominant-negative Cdc42 (cdc42N17) expressed in CHO cells significantly decreased Dextran uptake by 64% +/-11% when compared to control cells\"",
+    "citekey": "sabharanjak2002gpianchored",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-7KTEB_CIh",
+    "claim": "\"Increasing concentrations of PICK1 inhibited VCA-ARP2/3-complex-mediated actin polymerization based on pyrene fluorescence\"",
+    "citekey": "rocca2008inhibition",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-1neMt84xW",
+    "claim": "\"siRNA knockdown of IRSp53 in monocyte-derived macrophages prevented uptake of HIV-1 virus-like particles 12 days post infection.\"",
+    "citekey": "candor2024clic",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-R0fdDNXYr",
+    "claim": "\"Residence time of fimbrin in actin filament simulations matched experimental single-molecule dwell time distributions from fission yeast endocytosis, only if fimbrin's off rate was force-sensitive\"",
+    "citekey": "mousavi2024fast",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab--TJaesDew",
+    "claim": "\"Lumen-containing hiPSC aggregates exhibited apical-basal polarity as shown by ZO-1 and actin enrichment at the apical membrane in soft and intermediate hydrogels.\"",
+    "citekey": "seitz2024soft",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-_gAgnbg4h",
+    "claim": "\"The actin cytoskeleton remained largely unaffected by the inactivation of either TWF1 or TWF2 individually based on fluorescence imaging\"",
+    "citekey": "hakala2021twinfilin",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-uOXDJXWyn",
+    "claim": "\"During lumen growth in viscoelastic alginate hydrogels, few to none apoptotic cells were detected.\"",
+    "citekey": "indana2024lumen",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-E_cYY4opN",
+    "claim": "\"MDCK cells formed a lumen with as few as 2 cells through cell division or after 2 cells meet.\"",
+    "citekey": "lu2024generic",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-hHHAqpAc0",
+    "claim": "\"hiPSC lumenoids showed a reduction of proliferation (Ki-47) at day 6 when grown in intermediate or stiffer hydrogels, but not at day 3. \"",
+    "citekey": "seitz2024soft",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-Q4BRR-zNZ",
+    "claim": "\"Distributing 50 molecules of active Arp2/3 complex near the neck of the pit did not affect simulated endocytic internalization\"",
+    "citekey": "akamatsu2020principles",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-8TaxHhIQG",
+    "claim": "\"Treatment of SK-MEL-2 cells expressing endogenously edited CLTA-TagRFP-T and DNM2-eGFP with 75 mOsm hypotonic media for 2 minutes led to a shift in the cumulative distribution of clathrin lifetimes towards higher values, compated to control -\"",
+    "citekey": "kaplan2022load",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-lumv0EYv_",
+    "claim": "\"WAVE-1 expression decreased after shRNA-mediated knockdown of CYFIP1 \"",
+    "citekey": "nebel2016reduced",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-_Z3tXJ3iT",
+    "claim": "\"CLIC/GEEC inhibitor 7-KC prevented uptake of HIV-1 virus like particles into MD macrophages by immunofluorescence\"",
+    "citekey": "candor2024clic",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-AwE1jMoaw",
+    "claim": "\"Dominant active fluorescent Cdc42-Q61L prolonged colocalization with GFP-GRAF1 in Flp-In T-REx HeLa cells by greater than 3-fold (from ~10s in WT __CoralHue__Cdc42 to ~30s in __CoralHue__Cdc42-Q61L) in a live cell tracking experiment using TIRF microscopy.\"",
+    "citekey": "francis2015endocytic",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-sKYvgto6r",
+    "claim": "\"Markers of CLIC/GEEC (CD98 and CD44) colocalized with Siglec-1 and HIV-1 in monocyte-derived macrophages (MDMs).\"",
+    "citekey": "candor2024clic",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-l9WYE88cs",
+    "claim": "\"In FRaTB cells, ~28% of Dex+ spots colocalized with GFP-actin as observed by TIRF microscopy after 20 seconds incubation with R-Dextran at 37degC, followed by immediate wash and fix.\"",
+    "citekey": "chadda2007cholesterolsensitive",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-wrVm6Xc9D",
+    "claim": "\"Using a microfluidics assay with purified proteins, fluorescently labeled G-actin branches polymerized at the same location on the original filament following debranching, in a flow solution without purified ARP2/3 complex.\"",
+    "citekey": "ghasemi2024regeneration",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-X7FcbT7Wa",
+    "claim": "\"In FRaTB cells, <5% of GFP-Cdc42-WT colocalized with Transferrin receptors (TfR) as observed by TIRF microscopy after 20 seconds incubation with A568-Tf at 37degC, followed by immediate wash and fix.\"",
+    "citekey": "chadda2007cholesterolsensitive",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-_elWoSxJG",
+    "claim": "\"Activated Jurkat T-cells expressing constitutively active Cdc42-Q61L displayed elongated tubules labeled with GRAF1-GFP,  similar to cells expressing GRAF1-BAR-PH (missing GAP and SH3 domains)\"",
+    "citekey": "rossatti2019cdc42",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-GigbUOrj9",
+    "claim": "\"GST-GRAF1 SH3 domain precipitated endogenous ABI2 from HeLa/YFP-Parkin cell lysates as shown by GST-fusion pulldown assay.\"",
+    "citekey": "zhu2023graf1",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-HYqOBZm8M",
+    "claim": "\"Inhibition of Abi1 by RNA interference in HeLa cells showed substantial down-regulation of WAVE2, Nap1, and PIR121 protein levels\"",
+    "citekey": "innocenti2004abi1",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-ZwLzygE4r",
+    "claim": "\"IRSp53 and VASP inhibited barbed end actin depolymerization in an __in vitro__ pyrenyl-actin kinetics assay\"",
+    "citekey": "disanza2013cdc42",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-9flQjsKd6",
+    "claim": "\"In early stages of lumen formation (lumens <12 \u00b5m in radius), hiPCSs did not form tight junctions as shown by presence of cell-impermeable fluorescent dextran.\"",
+    "citekey": "indana2024lumen",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-vumCgFYsN",
+    "claim": "\"Swip1 silencing had no effect on the uptake of 10 kDa dextran or major histocompatibility complex I in MDA-MB-231 cells.\"",
+    "citekey": "morenolayseca2021cargospecific",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-jwNpWgLpt",
+    "claim": "\"IRSp53 slowed barbed-end actin polymerization in pyrenyl-actin kinetics assay; ~2-fold slower rates were observed with increasing (0.58uM vs 0.29uM) concentrations of IRSp53.\"",
+    "citekey": "disanza2013cdc42",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "akamatsulab-KfXBXEegv",
+    "claim": "\"Membrane tether pulling with optical tweezers showed membrane tension in fish keratocytes to be 0.276 \u00b1 0.01 pN/nm\"",
+    "citekey": "lieber2013membrane",
+    "dataset": "akamatsulab"
+  },
+  {
+    "id": "megacoglab-DFY2bllWM",
+    "claim": "\"participants who used AnalogiLead with chunking and recombination functionality to screen potentially inspiring far-domain analogies while brainstorming for a problem dismissed analogies 4x less often compared to when they used a baseline interface to screen analogies\"",
+    "citekey": "srinivasanImprovingSelectionAnalogical2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-G3PnUGqQy",
+    "claim": "\"GPT 3.5 in the MOOSE system with future and past feedback was able to generate hypotheses that were rated by PhD students as not novel at the level of the main argument, but with one or two sub-arguments appearing to be novel (about 3 out of a 5-point novelty scale)\"",
+    "citekey": "yangLargeLanguageModels2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab--qAE8FRMT",
+    "claim": "\"people who received inspirations on-demand generated ideas that were rated as more novel than ideas generated by participants who received examples on a fixed schedule, or no examples at all\"",
+    "citekey": "siangliulueProvidingTimelyExamples2015",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-aVLvBVh3M",
+    "claim": "\"access to unfiltered gpt-4 improved practice problem performance but *decreased* unaided exam performance, relative to no access or gpt-4 with teacher-designed tutoring prompt safeguards; gpt-4 with safeguards improved practice problem performance but neither harmed nor improved exam performance\"",
+    "citekey": "bastaniGenerativeAICan2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-VWesDVs7A",
+    "claim": "\"GPT-4 agreement with human reviewers for risk of bias assessment checklist elements ranged from low (Kendall coefficient of 0.23 for classification of interventions) to modest (Kendall coefficient of 0.54 for participant selection), with an overall modest agreement of Kendall coefficient of 0.35\"",
+    "citekey": "hasanIntegratingLargeLanguage2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-1ewEsEfCq",
+    "claim": "\"Titles in GPT-4o-generated suggested references for a focal paper were consistently shorter (fewer characters) than the titles of ground truth references in the paper\"",
+    "citekey": "algabaHowDeepLarge2025",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-4w6aulaC6",
+    "claim": "\"In a benchmarking study of human experts in medicine vs. LLMs, LLMs chance-adjusted agreement with human consensus was highest for PRISMA (40%-51%), modest for AMSTAR (27%-56%), and lowest for PRECIS-2 (1%-12%).\"",
+    "citekey": "woelfleBenchmarkingHumanAICollaboration2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-pbyP1prdV",
+    "claim": "\"The highest LLM-based (using Claude-3.5) evaluation of NLP research ideas agreed with domain experts at 53.3%, which was lower than (but comparable to) inter-expert-reviewer consistency of 56.1%\"",
+    "citekey": "siCanLLMsGenerate2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-X-fYuuSz2",
+    "claim": "\"overall score of about 3.5 from research experts, aggregated across dimensions of problem, method, and experiment for a sample of 150 research ideas generated by ResearchAgent\"",
+    "citekey": "baekResearchAgentIterativeResearch2025",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-tQBlj9wT3",
+    "claim": "\"Correlation in scores between domain experts and GPT-4 for evaluating proposed research problems and methods on dimensions of clarity, relevance, originality, feasibility, and significance, was lower than score correlations between human experts\"",
+    "citekey": "baekResearchAgentIterativeResearch2025",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-C1ZNRRiJN",
+    "claim": "\"compared to the hand-labeled ground truth, majority vote across three runs of GPT-4 achieved 86.6% accuracy for verifying binary reviewing checklists for a sample of 15 published NeurIPS papers\"",
+    "citekey": "liuReviewerGPTExploratoryStudy2023",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-yuGWf1zyy",
+    "claim": "\"participants answered landscape sensemaking questions significantly more quickly with patchview's visualization of world elements compared to just seeing the world elements in a list view\"",
+    "citekey": "chungPatchviewLLMPoweredWorldbuilding2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-LfwDT4YTP",
+    "claim": "\"best-performing models in a modeling competition for predicting life outcomes for children in 4242 families with access to comprehensive data from 12942 variables for the family collected across 6 waves of data collection from birth to age 15 had ~25% of variance explained for predicting material hardship; most outcomes like GPA, eviction, and job training and layoffs had less than 6% variance explained)\"",
+    "citekey": "salganikMeasuringPredictabilityLife2020",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-podJ0nw3s",
+    "claim": "\"participants who used AnalogiLead with chunking and recombination functionality to screen potentially inspiring far-domain analogies while brainstorming for a problem has 12x fewer decision changes to their screening decisions compared to when they used a baseline interface to screen analogies\"",
+    "citekey": "srinivasanImprovingSelectionAnalogical2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-BN8Vqws1Y",
+    "claim": "\"people who received inspirations on-demand transferred more structural features from examples compared to participants who received examples on a fixed schedule\"",
+    "citekey": "siangliulueProvidingTimelyExamples2015",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-CB1LHHJ5l",
+    "claim": "\"The median number of citations for GPT-4o-generated suggested references for a focal paper were consistently ~2-4x higher than the median citations for ground truth references in the paper\"",
+    "citekey": "algabaHowDeepLarge2025",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-RIETu52x3",
+    "claim": "\"no significant difference in time taken to answer comparison sensemaking questions with patchview's visualization of world elements compared to just seeing the world elements in a list view\"",
+    "citekey": "chungPatchviewLLMPoweredWorldbuilding2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-a8Yovqupy",
+    "claim": "\"LLM accuracy for answering STROBE reporting guideline checklist questions about observational studies of obesity ranged from 44.1% to 66.9% correct answers overall\"",
+    "citekey": "akyonEvaluatingCapabilitiesGenerative2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-kPFXVRJOO",
+    "claim": "\"about 30-50% absolute agreement (and deviations of approximately 1 point on 5 point scale on average) between GPT-4 and PhD student evaluations of validness, novelty, and helpfulness of machine-generated hypotheses\"",
+    "citekey": "yangLargeLanguageModels2024",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-8EICXK1an",
+    "claim": "\"Random Forest model trained on ~500+ million tweets and given comprehensive past \\\"success\\\" metrics for users and tweets, along with complex topic and metadata for tweets and users, was only able to explain less than half of the variance in information cascades\"",
+    "citekey": "martinExploringLimitsPrediction2016",
+    "dataset": "megacoglab"
+  },
+  {
+    "id": "megacoglab-ueZBOERHD",
+    "claim": "\"students engaged in more substantive interactions with gpt4-tutor compared to gpt4-base, such as asking for help or attempting their own solutions and checking them\"",
+    "citekey": "bastaniGenerativeAICan2024",
+    "dataset": "megacoglab"
+  }
 ]
